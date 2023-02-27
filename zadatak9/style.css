@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+.heading-1 {
+  width: 50%;
+  height: 500px;
+  border: 5px solid red;
+}
+
+.heading-2 {
+  width: 50%;
+  height: 500px;
+  border: 5px solid blue;
+}

@@ -1,0 +1,96 @@
+Sta je HTML? 
+Kako se pravi HTML fajl?
+Kako da znamo da je neki fajl HTML fajl?
+Da li svaka web stranica sadrzi HTML fajl?
+
+
+Da li je HTML programski jezik?
+Koji su osnovni tagovi koje svaka HTML stranica mora da ima?
+<!DOCTYPE>
+<html> 
+	<head> 
+		kakvi podaci su predstavljeni ovde?
+	</head>
+	<body> 
+		kakvi podaci su predstavljeni ovde?
+	</body>
+</html>
+
+Koje smo tagove radili na proslom casu?
+Da ih prodjemo opet.
+
+Danas radimo 
+img, alt atribut  sa i bez
+napravite da kad se klikne na sliku da se otvori link.
+liste 
+uredjena i neuredjena lista
+neuredjene
+<ul>
+<li> item </li>
+<li> item </li>
+<li> item </li>
+<li> item </li>
+</ul>
+
+
+uredjene
+<ol>
+<li> item </li>
+<li> item </li>
+<li> item </li>
+<li> item </li>
+</ol>
+
+definicione 
+<dl>
+  <dt>Danas</dt>
+  <dd>- danas cemo da ucimo nesto</dd>
+  <dt>Sutra</dt>
+  <dd>- sutra cemo da ucimo nesto novo</dd>
+</dl>
+
+atributi: type: "square", "disc"
+
+klase stilovi 
+
+
+tabele
+
+<body> <style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+</body>
+
+<table style="width:100%">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+
+https://www.w3schools.com/tags/tag_comment.asp
+
+
+// radili colspan i rowspan
+
+// danas radimo inpute, forme, submit
+
+// css interni, eksterni
+
+// borderi, color, background, borderi , margine, pading 
+
+

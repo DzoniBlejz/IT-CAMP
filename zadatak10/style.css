@@ -1,0 +1,99 @@
+body {
+  /* kako sve mozemo da koristimo boje:  */
+  background-color: #555555;
+  background-color: rgb(164, 157, 157);
+  color: rgb(254, 157, 2);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+
+  /* font-weight: 100;
+  font-weight: 200;
+  font-weight: 300;
+  font-weight: 400; /* normal */
+  /* font-weight: 500;
+  font-weight: 600;
+  font-weight: 700; /* bold */
+  /* font-weight: 800;
+  font-weight: 900;   */
+
+  /* radi istu stvari kao i kod iznad */
+  /* font: 800 16px Arial, Helvetica, sans-serif; */
+
+  /* line-height: 1.6em; */
+}
+
+.container {
+  display: flex;
+  width: 500px;
+  margin: auto;
+}
+
+.box-1 {
+  background-color: darkmagenta;
+  color: #000000;
+
+  border: 2px red solid;
+  padding: 20px;
+
+  border-width: 10px;
+  margin: 5%;
+}
+
+.box-2 {
+  border: 3px dotted #555555;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* sta je pading, a sta margina?
+sta je box-model?
+
+-- sledeci cas: positions, background image, image, mozda display: flex
+
+*/
+/* ako pomocu *{} dodamo margin 0, i padding 0, on ce da resetuje sve margine i padinge unutar fajla  */
+
+.box-1 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+
+.categories {
+  border: 1px gray solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0;
+  list-style: none;
+}
+
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+/*
+a:active {
+  color: green;
+} */

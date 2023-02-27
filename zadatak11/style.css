@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: aqua;
+}
+
+.box-container {
+  margin-top: 30px;
+  width: 80%;
+  height: 500px;
+  border: 2px solid black;
+  position: relative;
+}
+
+.box-container h1 {
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+  width: 0;
+}
+
+.box-container p {
+  position: absolute;
+}
+
+.buttons {
+  position: fixed;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  border: 10px solid red;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid black;
+  padding: 30px;
+  box-sizing: border-box;
+}
+/*
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: brown;
+  color: white;
+  padding: 50px;
+  box-sizing: border-box;
+} 
+*/
+
+.clr {
+  clear: both;
+}

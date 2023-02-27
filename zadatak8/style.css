@@ -1,0 +1,25 @@
+.klasniNaziv {
+  background-color: darkcyan;
+}
+#nazivPoID {
+  background-color: darksalmon;
+}
+
+p,
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.davud {
+  text-align: center;
+}
+
+h1.davud {
+  text-align: center;
+  background-color: rebeccapurple;
+}
+
+* {
+  text-align: center;
+  color: blue;
+}
