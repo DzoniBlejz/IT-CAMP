@@ -11,6 +11,10 @@
   height: 500px;
   border: 2px solid black;
   position: relative;
+  background-image: url("bannerphoto.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-position: 50px 50px;
 }
 
 .box-container h1 {
@@ -34,13 +38,26 @@
 
 .block {
   float: left;
-  width: 33.3%;
+  width: 50%;
   border: 1px solid black;
   padding: 30px;
   box-sizing: border-box;
 }
-/*
-#main-block {
+.block h1 {
+  float: left;
+  width: 20%;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+
+.block p {
+  width: 80%;
+  float: left;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+/* #main-block {
   float: left;
   width: 70%;
   padding: 15px;
@@ -51,11 +68,28 @@
   width: 30%;
   background-color: brown;
   color: white;
-  padding: 50px;
+  padding: 15px;
   box-sizing: border-box;
-} 
-*/
+} */
 
 .clr {
   clear: both;
 }
+.my-list li:nth-child(5) {
+  background-color: red;
+}
+
+.my-list li:first-child {
+  background-color: blue;
+}
+
+.my-list li:last-child {
+  background-color: aquamarine;
+}
+
+.my-list li:nth-child(even) {
+  background-color: yellow;
+}
+/* .my-list li {
+  display: inline;
+} */
