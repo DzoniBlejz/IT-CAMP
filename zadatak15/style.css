@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+button {
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px 3px;
+  background-color: rgb(219, 159, 159);
+  border: 10px solid rgb(166, 88, 88);
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+
+  /* transition-property: transform;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+  transition-delay: 0s; */
+
+  transition: transform 0.9s;
+}
+
+button:hover {
+  transform: rotateY(360deg);
+}
