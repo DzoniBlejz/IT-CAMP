@@ -1,0 +1,127 @@
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animate--infinite {
+  animation-iteration-count: infinite;
+}
+
+.animate--delay-1s {
+  animation-delay: 1s;
+}
+
+.animate--fast {
+  animation-duration: 0.6s;
+}
+.animate--slow {
+  animation-duration: 3s;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes jeste {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(500px);
+  }
+}
+
+.levoSlide {
+  animation-name: jeste;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+}
+
+.slideInLeft {
+  /* animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none; */
+
+  /* animation: name duration timing-function delay iteration-count direction
+    fill-mode; */
+  /* animation: slideInLeft 1s ease-in 0.2s 1 normal none; */
+  /* istu funkciju obavlja kao i linija iznad*/
+  animation: slideInLeft 1s ease-in;
+
+  /* animation-name: slideInLeft;
+  animation-timing-function: ease-in;
+  animation-duration: 1s; */
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(2000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slideInRight {
+  background-color: aqua;
+  animation-name: slideInRight;
+  animation-timing-function: ease-in;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    /* transform: rotateY(360deg);
+    screensaver */
+    transform: rotateY(360deg);
+  }
+}
+
+.rotate {
+  animation-name: rotate;
+  animation-timing-function: linear;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  /* 20% {
+    transform: translateY(0);
+  } */
+  40% {
+    transform: translateY(-100px);
+  }
+  /* 50% {
+    transform: translateY(0);
+  } */
+  60% {
+    transform: translateY(-15px);
+  }
+  /* 80% {
+    transform: translateY(0);
+  } */
+  /* 100% {
+    transform: translateY(0);
+  } */
+}
+
+.bounce {
+  animation-name: bounce;
+}
