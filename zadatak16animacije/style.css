@@ -1,6 +1,13 @@
+/* animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none; */
+
 .animate {
   animation-duration: 1s;
-  animation-fill-mode: both;
 }
 
 .animate--infinite {
@@ -116,12 +123,13 @@
   }
   /* 80% {
     transform: translateY(0);
-  } */
-  /* 100% {
+  }
+  100% {
     transform: translateY(0);
   } */
 }
 
 .bounce {
   animation-name: bounce;
+  animation-duration: 2s;
 }
