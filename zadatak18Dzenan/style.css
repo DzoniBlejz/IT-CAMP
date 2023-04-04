@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(182, 255, 122);
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.links {
+  margin-right: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+.main {
+  background-color: rgba(0, 0, 255, 0.5);
+  /* opacity: 0.5; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+}
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 40%;
+}
+
+.right img {
+  width: 100%;
+}
+
+.title {
+  font-size: clamp(3rem, 1rem + 10vw, 7rem);
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  header {
+    background-color: burlywood;
+    height: 13vh;
+  }
+
+  .logo {
+    margin-left: 15px;
+  }
+  .links {
+    margin-right: 15px;
+  }
+
+  .links a {
+    margin: 0 7px;
+  }
+
+  .main {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .left {
+    width: 90%;
+    text-align: justify;
+    margin: 20px;
+  }
+
+  .left h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .left p {
+    line-height: 22px;
+  }
+
+  .right {
+    width: 90%;
+  }
+
+  .right img {
+    border-radius: 15px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    height: 10vh;
+  }
+
+  .logo {
+    margin-left: 5px;
+  }
+
+  .links {
+    margin-right: 5px;
+  }
+
+  .links a {
+    margin: 0 5px;
+  }
+
+  .main {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .left {
+    width: 85%;
+    text-align: justify;
+    margin: 15px;
+  }
+
+  .left h1 {
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+  }
+
+  .left p {
+    line-height: 22px;
+  }
+
+  .right {
+    width: 85%;
+  }
+
+  .right img {
+    border-radius: 15px;
+  }
+}
+
+@media (orientation: tab) {
+  header {
+    background-color: aqua;
+  }
+}
+
+/* raspored je bitan! 
+obratite paznju sta imate pre i posle media query! */
+
+/*@media (min-width:320px)  { smartphones, iPhone, portrait 480x320 phones */
+/*@media (min-width:481px)  {  portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+/*@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+/*@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+/*@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+/*@media (min-width:1281px) { /* hi-res laptops and desktops */
