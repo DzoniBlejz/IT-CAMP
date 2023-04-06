@@ -34,9 +34,7 @@ body {
   border: 1px solid red;
 }
 
-.box-1,
-.box-2,
-.box-3 {
+.box {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
