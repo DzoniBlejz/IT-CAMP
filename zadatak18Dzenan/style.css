@@ -97,7 +97,7 @@ header {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 455px) {
   header {
     height: 10vh;
   }

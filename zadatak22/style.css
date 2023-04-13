@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+  body {
+    background-color: aquamarine;
+  }
+  header {
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  .links {
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+  }
+  main {
+    background-color: chocolate;
+  }
+
+  .container {
+    width: 100%;
+    height: 50vh;
+    border: 2px solid red;
+  }
+  .input {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .input input {
+    border-radius: 2%;
+  }
+  footer {
+    height: 15vh;
+    width: 100vw;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+  }
+  .footer-desc {
+    width: 80%;
+    background-color: blue;
+    height: 50%;
+  }
+  section {
+    width: 100vw;
+    height: 25vh;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .box1 {
+    width: 70%;
+    border: 1px solid black;
+    height: 5vh;
+  }
+  .box2 {
+    width: 70%;
+    height: 10vh;
+    border: 2px solid red;
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  .links {
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+  }
+  .container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .input {
+    display: none;
+  }
+  .div1 {
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(
+      to top right,
+      green 0%,
+      green 50%,
+      #fff 50%,
+      #fff 100%
+    );
+  }
+  .div2 {
+    width: 20%;
+    height: 100%;
+    background-color: gold;
+    transform: skew(25deg);
+  }
+  .div3 {
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom left,
+      black 0%,
+      black 50%,
+      #fff 50%,
+      #fff 100%
+    );
+  }
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 22vh;
+    background-color: aqua;
+  }
+  .box {
+    width: 30%;
+    height: 30%;
+    border: 2px solid red;
+  }
+  footer {
+    height: 15vh;
+    width: 100vw;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-desc {
+    width: 80%;
+    background-color: blue;
+    height: 50%;
+  }
+}
