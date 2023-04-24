@@ -7,11 +7,12 @@
 header {
   width: 100vw;
   height: 10vh;
-  background-color: aqua;
+  background-color: rgb(39, 24, 126);
   display: flex;
   justify-content: end;
   gap: 15px;
   align-items: center;
+  color: white;
 }
 .logo {
   width: 50px;
@@ -24,7 +25,9 @@ header {
 .links {
   width: 8rem;
   height: 30px;
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .div3 {
@@ -59,7 +62,7 @@ header {
 footer {
   height: 15vh;
   width: 100vw;
-  background-color: cadetblue;
+  background-color: rgb(117, 139, 253);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,14 +71,14 @@ footer {
 }
 .footer-desc {
   width: 80%;
-  background-color: blue;
+  background-color: rgb(174, 184, 254);
   height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 p {
-  color: bisque;
+  color: black;
   font-size: larger;
   word-spacing: 2rem;
 }
@@ -109,7 +112,6 @@ main .container {
   header {
     width: 100vw;
     height: 10vh;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,7 +153,6 @@ main .container {
   footer {
     height: 15vh;
     width: 100vw;
-    background-color: cadetblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +161,6 @@ main .container {
   }
   .footer-desc {
     width: 80%;
-    background-color: blue;
     height: 50%;
   }
   section {
@@ -191,7 +191,6 @@ main .container {
   header {
     width: 100vw;
     height: 10vh;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -263,14 +262,12 @@ main .container {
   footer {
     height: 15vh;
     width: 100vw;
-    background-color: cadetblue;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .footer-desc {
     width: 80%;
-    background-color: blue;
     height: 50%;
   }
 }
