@@ -14,6 +14,7 @@ header {
   align-items: center;
   color: white;
 }
+
 .logo {
   width: 50px;
   height: 50px;
@@ -23,6 +24,12 @@ header {
   position: absolute;
   left: 0;
 }
+
+h1,
+a {
+  display: none;
+}
+
 .links {
   width: 8rem;
   height: 30px;
@@ -110,6 +117,14 @@ main .container {
   body {
     background-color: aquamarine;
   }
+
+  a {
+    display: none;
+  }
+
+  h1 {
+    display: block;
+  }
   header {
     width: 100vw;
     height: 10vh;
@@ -120,14 +135,11 @@ main .container {
   .logo {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    border: 2px solid black;
     position: static;
   }
   .links {
     width: 60px;
     height: 30px;
-    border: 1px solid black;
   }
   main {
     background-color: chocolate;
@@ -136,7 +148,6 @@ main .container {
   .container {
     width: 100%;
     height: 50vh;
-    border: 2px solid red;
     gap: 0;
   }
   .input {
@@ -146,9 +157,9 @@ main .container {
     align-items: center;
   }
   .input input {
-    border-radius: 2%;
-    width: 15rem;
-    height: 2.5rem;
+    border-radius: 5rem;
+    width: 12rem;
+    height: 2rem;
   }
 
   footer {
@@ -167,7 +178,6 @@ main .container {
   section {
     width: 100vw;
     height: 25vh;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -175,13 +185,20 @@ main .container {
   }
   .box1 {
     width: 70%;
-    border: 1px solid black;
-    height: 5vh;
+    min-height: 3vh;
   }
+
   .box2 {
     width: 70%;
     height: 10vh;
-    border: 2px solid red;
+    background: linear-gradient(
+      to right,
+      red 20%,
+      orange 20% 40%,
+      yellow 40% 60%,
+      green 60% 80%,
+      blue 80%
+    );
   }
   button {
     display: none;
@@ -196,17 +213,18 @@ main .container {
     justify-content: space-between;
     align-items: center;
   }
+  a {
+    display: block;
+    text-decoration: none;
+  }
   .logo {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    border: 2px solid black;
     position: static;
   }
   .links {
     width: 60px;
     height: 30px;
-    border: 1px solid black;
   }
   .container {
     width: 100%;
@@ -253,12 +271,14 @@ main .container {
     align-items: center;
     width: 100vw;
     height: 22vh;
-    background-color: aqua;
+    background-color: rgb(174, 184, 254);
   }
   .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30%;
     height: 30%;
-    border: 2px solid red;
   }
   footer {
     height: 15vh;
